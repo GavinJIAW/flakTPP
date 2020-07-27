@@ -1,0 +1,19 @@
+客户端
+    用户系统
+        字段
+        username
+        password
+        phone
+        email
+        is_delete
+        permision
+    权限设计
+        类似于linux的权限设计
+         精髓 一个字段可以代表多种权限
+         完全和linux一样
+         使用二进制
+         所有的初始权限值都是2的n次蜜
+        多表设计权限
+            用户表
+            权限表
+            用户权限表
